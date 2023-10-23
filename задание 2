@@ -1,0 +1,6 @@
+def registration(name, surname, patronymic, age):
+  age = 2023 - age
+  txt = surname + name + patronymic + str(age) + ' г. р. зарегистирован! '
+  return txt
+
+registration('Михаил ', 'Хохлов ', 'Алексеевич ', 15 )
