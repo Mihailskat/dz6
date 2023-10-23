@@ -1,0 +1,7 @@
+def mx(number_1, number_2, number_3 = 0):
+  if number_3 > number_1 and number_3 > number_2:
+    return number_3
+  if number_1 > number_2:
+    return number_1
+  if number_2 > number_1:
+    return number_2
